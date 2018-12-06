@@ -27,8 +27,8 @@
   height: 40px;
   background: #459FFB;
 }
-.icon-user1{
-  color: white;
-  float: right;
-  padding-right:10px;
+
+.icon-arrow1{
+    color: #ffffff;
+    padding-left: 10px;
 }

@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    <navigator open-type="navigateBack" hover-class="other-navigator-hover">
+      <icon class="iconfont icon-arrow1" size="30"/>
+    </navigator>
+  </view>
+  
+  login
+  
+</view>

@@ -6,22 +6,17 @@ Page({
   data: {
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    imgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg',
-      'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544095330083&di=e7e692ee960c92928092d7e7245e5964&imgtype=0&src=http%3A%2F%2Fpic19.nipic.com%2F20120210%2F7827303_221233267358_2.jpg'
-    ],
-    indicatorDots: false,
-    autoplay: false,
-    interval: 5000,
-    duration: 1000
+    canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
   goLogin: function() {
     wx.navigateTo({
       url: '../login/login'
+    })
+  },
+  goBack: function () {
+    wx.navigateBack({
+      delta: 1
     })
   },
   bindViewTap: function() {
